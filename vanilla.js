@@ -75,9 +75,7 @@ class ButtonSubtle extends HTMLElement {
 
 	// Invoked when component attribute changes
 	attributeChangedCallback(attrName, oldVal, newVal) {
-		if (attrName === 'text') {
-			this._button.setAttribute('title', newVal);
-		} else if (attrName === 'disabled') {
+		if (attrName === 'disabled') {
 			this._button.disabled = this.disabled;
 		} else if (attrName === 'src') {
 			this._img.src = newVal;
