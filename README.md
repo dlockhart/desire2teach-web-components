@@ -1,20 +1,19 @@
 # Desire2Teach: Web Components
 
-Demonstrates building a web component using vanilla JavaScript compared to [LitElement](https://lit-element.polymer-project.org/).
+Demonstrates building a web component using vanilla JavaScript compared to [Lit](https://lit.dev/).
 
 ## Resources
 
 ### Web Components
 
-* [LitElement](https://lit-element.polymer-project.org/guide): official LitElement guide
-* [lit-html](https://lit-html.polymer-project.org/guide): official lit-html guide
+* [Lit](https://lit.dev/docs/): official Lit guide
 * [Modern Web Project](https://modern-web.dev/): Guides, tools and libraries for modern web development (this project uses their development server tooling)
 * [Google Web Fundamentals: Custom Elements](https://developers.google.com/web/fundamentals/web-components/customelements): Vanilla custom elements overview
 
 ### D2L Resources
 
 * [The Guide to Web Component Developement at D2L](https://github.com/BrightspaceUI/guide/wiki): Documentation, tips, best practices
-    - [LitElement Best Practices & Gotchas](https://github.com/BrightspaceUI/guide/wiki/LitElement-Best-Practices-&-Gotchas)
+    - [Lit Best Practices & Gotchas](https://github.com/BrightspaceUI/guide/wiki/LitElement-Best-Practices-&-Gotchas)
     - [Component Tiers](https://github.com/BrightspaceUI/guide/wiki/Component-Tiers)
 * [@brightspace-ui/core](https://github.com/BrightspaceUI/core/): D2L's primary set of web components
 * [Design.d2l](http://design.d2l/): Design resources for core components
