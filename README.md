@@ -12,11 +12,8 @@ Demonstrates building a web component using vanilla JavaScript compared to [Lit]
 
 ### D2L Resources
 
-* [The Guide to Web Component Developement at D2L](https://github.com/BrightspaceUI/guide/wiki): Documentation, tips, best practices
-    - [Lit Best Practices & Gotchas](https://github.com/BrightspaceUI/guide/wiki/LitElement-Best-Practices-&-Gotchas)
-    - [Component Tiers](https://github.com/BrightspaceUI/guide/wiki/Component-Tiers)
+* [Daylight Site](https://daylight.d2l.dev/): design and development resources for building UIs
 * [@brightspace-ui/core](https://github.com/BrightspaceUI/core/): D2L's primary set of web components
-* [Design.d2l](http://design.d2l/): Design resources for core components
 * [BrightspaceUI Labs](https://github.com/BrightspaceUILabs): Experimental web components
 * [Brightspace Hypermedia Components](https://github.com/BrightspaceHypermediaComponents): Hypermedia-driven web components
 
