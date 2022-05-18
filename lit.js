@@ -7,46 +7,42 @@ class ButtonSubtle extends LitElement {
 		this.disabled = false;
 	}
 
-	static get properties() {
-		return {
-			disabled: { type: Boolean, reflect: true },
-			src: { type: String },
-		}
-	}
+	static properties = {
+		disabled: { type: Boolean, reflect: true },
+		src: { type: String },
+	};
 
-	static get styles() {
-		return css`
-			:host {
-				display: inline-block;
-			}
-			button {
-				align-items: center;
-				background-color: transparent;
-				border-color: transparent;
-				border-radius: 6px;
-				color: #006FBF;
-				display: flex;
-				font-family: inherit;
-				outline: none;
-				padding: 10px 12px;
-				font-size: 14px;
-			}
-			button:hover:not([disabled]),
-			button:focus:not([disabled]) {
-				background-color: #e3e9f1;
-			}
-			button:focus-visible {
-				box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #006fbf;
-			}
-			button[disabled] {
-				cursor: default;
-				opacity: 0.5;
-			}
-			img {
-				margin-right: 5px;
-			}
-		`;
-	}
+	static styles = css`
+		:host {
+			display: inline-block;
+		}
+		button {
+			align-items: center;
+			background-color: transparent;
+			border-color: transparent;
+			border-radius: 6px;
+			color: #006FBF;
+			display: flex;
+			font-family: inherit;
+			outline: none;
+			padding: 10px 12px;
+			font-size: 14px;
+		}
+		button:hover:not([disabled]),
+		button:focus:not([disabled]) {
+			background-color: #e3e9f1;
+		}
+		button:focus-visible {
+			box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #006fbf;
+		}
+		button[disabled] {
+			cursor: default;
+			opacity: 0.5;
+		}
+		img {
+			margin-right: 5px;
+		}
+	`;
 
 	render() {
 		return html`
