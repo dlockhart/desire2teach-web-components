@@ -1,4 +1,4 @@
-import {css, html, LitElement} from 'lit';
+import { css, html, LitElement } from 'lit';
 
 class ButtonSubtle extends LitElement {
 
