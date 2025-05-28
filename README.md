@@ -14,8 +14,8 @@ Demonstrates building a web component using vanilla JavaScript compared to [Lit]
 
 * [Daylight Site](https://daylight.d2l.dev/): design and development resources for building UIs
 * [@brightspace-ui/core](https://github.com/BrightspaceUI/core/): D2L's primary set of web components
-* [BrightspaceUI Labs](https://github.com/BrightspaceUILabs): Experimental web components
-* [Brightspace Hypermedia Components](https://github.com/BrightspaceHypermediaComponents): Hypermedia-driven web components
+* [@brightspace-ui/labs](https://github.com/BrightspaceUI/labs/): Experimental web components
+* [@brightspace-ui/testing](https://github.com/BrightspaceUI/testing): tools for unit testing, accessibility testing and vdiff testing
 
 ## Setup
 
